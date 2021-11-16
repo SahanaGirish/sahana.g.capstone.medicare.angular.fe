@@ -6,8 +6,8 @@ import { Injectable } from '@angular/core';
 })
 export class BasicServicesService {
 
- baseURL:string="http://localhost:8085";
-//  baseURL:string="http://54.157.10.242:8084";
+ //baseURL:string="http://localhost:8085";
+baseURL:string="http://52.73.87.176:8085";
  //header = new HttpHeaders({'API_KEY':'blabla'});
   header = new HttpHeaders();
   params= new HttpParams();

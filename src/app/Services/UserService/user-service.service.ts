@@ -6,8 +6,8 @@ import { Injectable } from '@angular/core';
 })
 export class UserServiceService {
 
-  // baseURL:string='http://54.157.10.242:8084'+'/user';
-  baseURL:string='http://localhost:8085'+'/user';
+   baseURL:string='http://52.73.87.176:8085'+'/user';
+  //baseURL:string='http://localhost:8085'+'/user';
 
   constructor(private http:HttpClient) { }
 
